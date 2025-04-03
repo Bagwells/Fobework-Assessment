@@ -4,7 +4,7 @@ import ChartStyle from "./components/Chart";
 import { formattedDate } from "./hooks/useDate";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
-import StockTable from "./stock";
+import StockTable from "./components/stock";
 
 const HomePage =() => {
 

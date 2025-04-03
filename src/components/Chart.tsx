@@ -12,7 +12,7 @@ const ChartStyle:React.FC =()=> {
         period:'Weekly'
     };
 
-    const [chartData, setChartData] = useState({
+    const [chartData] = useState({
         series: [
           { name: '', data: [8.000, 18.000, 4.000, 28.000, 8.000, 45.000, 8.000, 20.000, 34.000, 4.000, 30.000, 24.000] },
         ],
