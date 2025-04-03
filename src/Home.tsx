@@ -124,6 +124,7 @@ const HomePage =() => {
                                         </div>
                                     </div>
                                     <div className="w-full flex overflow-auto">
+                                    
                                         <StockTable/>
                                     </div>
                                 </div>

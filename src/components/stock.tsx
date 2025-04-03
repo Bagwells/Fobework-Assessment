@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import axios, { AxiosError } from "axios";
 import { toast } from "react-toastify";
+import { TableDataAnalysis } from "./AnalyticData";
 
 interface StockData {
   symbol: string;
@@ -56,14 +57,14 @@ const StockTable = () => {
     };
 
     fetchStockData();
-  }, [API_KEY, symbols]);
+  }, []);
 
   if (loading) {
     return <div>Loading...</div>;
   }
 
   if (error) {
-    return <div>Error: {error}</div>;
+    return <TableDataAnalysis/>;
   }
 
   return (

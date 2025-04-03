@@ -100,9 +100,9 @@ const NavBar = () => {
 
                         {/* Dropdown Menu */}
                         <div
-                            className={`absolute flex right-5 top-16 w-[220px] h-fit ${styleChange} bg-grey50 dark:bg-grey900 border border-borderCol dark:border-grey600 shadow-neutral-600 rounded-lg`}
+                            className={`absolute flex right-5 top-16 w-[220px] h-fit ${styleChange} bg-grey50 dark:bg-grey900 border border-borderCol dark:border-grey600 shadow-neutral-600 rounded-lg py-4`}
                         >
-                            <div className="flex flex-col w-full items-end gap-5">
+                            <div className="flex flex-col w-full items-end gap-5 px-4">
                                 {["Profile", "Accounts", "Notification"].map((items, index) => (
                                     <div
                                         key={index}

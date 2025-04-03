@@ -48,7 +48,7 @@ function App() {
     <GlobalContextProvider>
       <ThemeProvider>
         <Preloader visibility={showPreloader} />
-        <main className='bg-grey50 dark:bg-grey900 w-screen'>
+        <main className='bg-grey50 dark:bg-grey900 w-screen min-h-svh lg:min-h-screen'>
           <ToastContainer position="top-right" closeOnClick />
           <NavBar />
           <div className='bg-transparent flex-1 lg:mt-20 lg:ml-20 px-4 md:p-6'>
