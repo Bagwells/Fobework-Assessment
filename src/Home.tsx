@@ -62,7 +62,7 @@ const HomePage =() => {
               setAnalytics(mockResponse.analytics);
               setLoading(false);
               toast.success("Analytics Data Fetch successfully");
-            }, 1000);
+            }, 2000);
           } catch (error: unknown) {
             toast.error("Error fetching analytics data");
             console.error("Error fetching analytics:", error);

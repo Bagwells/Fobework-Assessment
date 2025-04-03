@@ -10,7 +10,7 @@ export const ThemeSwitcher = () => {
     
     return (
         <>  
-            <div className="flex flex-col w-[46px] h-24 p-2 bg-[#F7F8FA] dark:bg-[#1E293B] rounded-[100px] justify-between self-center">
+            <div className="flex flex-col w-[46px] h-24 p-2 bg-[#F7F8FA] dark:bg-[#1E293B] rounded-[100px] justify-between items-center self-center">
                 <button onClick={toggleTheme}
                     className={`flex text-[30px] ${theme ? "text-[#FACC15]" : "text-[#94A3B8]" } hover:text-[#FACC15]`}>
                     <BiSolidSun />

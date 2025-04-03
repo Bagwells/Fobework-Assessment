@@ -51,7 +51,7 @@ function App() {
         <main className='bg-grey50 dark:bg-grey900 w-screen min-h-svh lg:min-h-screen'>
           <ToastContainer position="top-right" closeOnClick />
           <NavBar />
-          <div className='bg-transparent flex-1 lg:mt-20 lg:ml-20 px-4 md:p-6'>
+          <div className='bg-transparent flex-1 mt-20 lg:ml-20 px-4 py-8 md:px-6'>
               <Routes>
                 {publicRoutes.map((route) => (
                   <Route key={route.name} path={route.path} element={route.element} />

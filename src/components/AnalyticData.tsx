@@ -91,7 +91,7 @@ const TableDataAnalysis = () => {
     ]
 
     return (
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto w-full">
             <table className="table-auto w-full border-collapse border-[#EDF2F6] dark:border-grey700">
                 <thead className="bg-grey50 dark:bg-grey800">
                     <tr>
